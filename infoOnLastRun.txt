@@ -1,0 +1,19 @@
+Parsing error with 'ManualEntryMode.txt'... if on 'true' mode, are there 4 numbers after it?  The first three represent the XCor thresholds and the 4th number represents the deltaCN threshold.
+java.util.NoSuchElementException
+	at java.util.Scanner.throwFor(Unknown Source)
+	at java.util.Scanner.next(Unknown Source)
+	at java.util.Scanner.nextDouble(Unknown Source)
+	at dtaSelectProcessor.Main.main(Main.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+
+
+
+
+XCor Thresholds: 1.5 1.67 3.0 DeltaCN Threshold: 0.05
+Starting...
+No. of Decoys	No. of Reals
+17				603
