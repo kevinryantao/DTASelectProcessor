@@ -11,7 +11,6 @@ public class DtaSelectObject {
 	
 	/**
 	 * Initializes the DtaSelectObject
-	 * @param sc
 	 */
 	public DtaSelectObject(Scanner sc){
 		proteinArray = new ArrayList<Protein>();
